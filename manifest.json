@@ -1,0 +1,10 @@
+{
+  "name": "स्वाध्याय-दीपिका — Vedāntic reading aid",
+  "short_name": "स्वा·दीपिका",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#faf9f7",
+  "theme_color": "#3a2f2a",
+  "icons": []
+}
