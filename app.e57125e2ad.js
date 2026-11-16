@@ -108,6 +108,7 @@ const PROFILE_OMIT = new Set((window.VV_PROFILE && window.VV_PROFILE.omit) || []
 const ACADEMY_TOOLS = [
     { href: "https://vyakarana-corpus-chat.onrender.com/", title: "💬 जिज्ञासा · Ask the corpus", tag: "query all 15 texts", desc: "Ask in plain language — get counts &amp; cited examples of any vibhakti, kāraka role, samāsa (with recursive vigraha), sandhi, or bhāṣya feature across the whole corpus. Answers are exact, not guessed." },
     { href: "https://constrainedrandomvar.github.io/prasthanatrayi-search/", title: "🔍 अन्वेषण · Full-text search", tag: "find any phrase", desc: "Search the source texts &amp; commentaries for any word or phrase, with page-linked results." },
+    { href: "tool-vrtti.html", title: "📜 अन्वाख्यातवृत्तिः · Sūtra vṛttis, step by step", tag: "how each vṛtti is built", desc: "Every Aṣṭādhyāyī sūtra’s vṛtti, built from its words, anuvṛtti and paribhāṣās, one step at a time, with the prathamāvṛtti, the नैलेश-वृत्तिः, the Kāśikā and the Kaumudīs beside it. Draft: machine-built and still under review." },
     { href: "scratchpad.html", title: "📋 शेमुषी · Shared-reading scratchpad", tag: "present a Word / Doc", desc: "Load an instructor's Word / Google-Docs document — colour-coded pūrvapakṣa · siddhānta · pratīka come across verbatim — and share a live, script-independent read-along: students follow your scroll, highlight &amp; laser, each in their own lipi." },
   ];
 function libraryCounts() {
